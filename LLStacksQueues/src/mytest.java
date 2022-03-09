@@ -5,8 +5,8 @@ public class mytest {
 	public static void main(String [] args) {
 		int num_tests = 90000000; //100,000,000
 		int n = 90000000;
-		System.out.println("InsertAtTail : " + testInsertAtTail(makeList(n),num_tests) + " milliseconds seconds");
-		System.out.println("InsertAtHead : " + testInsertAtHead(makeList(n),num_tests) + " milliseconds seconds");
+		System.out.println("InsertAtTail : " + testInsertAtTail(makeList(0),num_tests) + " milliseconds seconds");
+		System.out.println("InsertAtHead : " + testInsertAtHead(makeList(0),num_tests) + " milliseconds seconds");
 		System.out.println("InsertAt : " + testInsertAt(makeList(n),num_tests) + " milliseconds seconds"); //insert at middle of list
 		// System.out.println("Insert : " + testInsert(makeList(n),num_tests) + " milliseconds seconds");
 		System.out.println("RemoveAtTail : " + testRemoveAtTail(makeList(n),num_tests) + " milliseconds seconds");
